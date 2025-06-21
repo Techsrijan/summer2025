@@ -5,7 +5,7 @@ y=[10,20,14,50,7,45,18]
 # mp.plot(x,y)
 # mp.ylabel('temperature')
 # mp.xlabel('day')
-plot(x,y)
+plot(y,x)
 ylabel('temperature')
 xlabel('day')
 show()
