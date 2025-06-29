@@ -18,7 +18,7 @@ t.forward(100)
 for i in range(3):
     t.left(90)
     t.fd(100)
-t.end_fill()
+# t.end_fill()
 t.penup()   #t.pu()
 t.forward(100)
 t.pendown()  #t.pd()

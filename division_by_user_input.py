@@ -5,4 +5,4 @@ if b==0:
 else:
     c=a/b
     print("C=",c)
-print("thank You for using Program")
+print("all out")
