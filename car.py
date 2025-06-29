@@ -1,6 +1,6 @@
 from turtle  import *
 
-import fontTools.feaLib.ast
+
 
 t=Turtle()
 t.speed(7)
