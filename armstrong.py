@@ -8,6 +8,6 @@ while n>0:
     n=n//10
 print("sum=",sum)
 if sum==orig:
-    print("Armstrong no")
+    print("Magic no")
 else:
-    print("not armstrong")
+    print("not magic no")
