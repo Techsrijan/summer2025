@@ -2,8 +2,11 @@ from tkinter import *
 
 def get_text_data():
     #print(x.get())
-    result.set(x.get())
-    x.set('')
+    if x.get()=='':
+        result.set('Please Enter Value in text box')
+    else:
+        result.set(x.get())
+        x.set('')
 
 
 

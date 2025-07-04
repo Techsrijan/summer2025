@@ -16,8 +16,9 @@ engine.setProperty('voice', voices[0].id)  #changing index, changes voices. o fo
 
 
 for i in range(1,10):
-    engine.say(i)
     print(i)
+    engine.say(i)
+
+    engine.runAndWait()
 
 #engine.say("Tkinter is a binding to the Tk GUI toolkit for Python. It is the standard Python interface to the Tk GUI toolkit,[1] and is Python's de facto standard GUI.[2] Tkinter is included with standard Linux, Microsoft Windows and macOS installs of Python.")
-engine.runAndWait()
