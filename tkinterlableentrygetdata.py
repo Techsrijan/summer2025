@@ -1,9 +1,11 @@
 from tkinter import *
+from tkinter import messagebox
 
 def get_text_data():
     #print(x.get())
     if x.get()=='':
-        result.set('Please Enter Value in text box')
+        #result.set('Please Enter Value in text box')
+        messagebox.showerror("Input Value Error","Please Fill the Text box value")
     else:
         result.set(x.get())
         x.set('')
